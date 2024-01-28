@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.avif');
+  background-color: #ffd180;
+  /* background-size: 100vw; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* backdrop-filter: blur5px); */
+}
+
+/* Стилизация скроллбара */
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #e65100;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #ef6c00;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #ffcc80;
+}
+
+html, .card-reveal {
+  scrollbar-color: #e65100 #ef6c00;
+  scrollbar-width: thin;
+}
+
+/* #main-text {
+  background-color: transparent;
+  border: 0px solid transparent;
+} */
+
+/* .collapsible-header {
+  filter: opacity(0.85);
+} */
+
+/* ul.collapsible {
+  border: 0px solid transparent;
+} */
+
+/* Стилизация аккордеона */
+/* .collapsible-header {
+  border: 0px solid transparent;
+}
+
+div.collapsible-body {
+  border: 0px solid transparent;
+}
+
+.lang-row {
+  display: flex;
+  text-align: center;
+}
+
+.lang-logo {
+  height: 7vh;
+  min-height: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+.lang-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.lang-name {
+  margin: auto;
+  margin-left: 10px;
+} */
+
+/* Стилизация карточки */
+.card {
+  filter: opacity(0.9);
+  border-radius: 9px;
+}
+
+.card-action {
+  border-radius: 3px;
+  margin-left: auto;
+}
+
+.card-description {
+  padding-bottom: 1px;
+}
+
+.tag {
+  display: inline;
+  margin-right: 5px; /* Отступ слева */
+  font-size: small;
+  /* border: 1px solid; */
+  border-radius: 5px;
+}
+
+a.activator.btn-large {
+  background-color: #ef6c00;
+}
+
+/* Стилизация футера */
+.page-footer {
+  margin-left: 5px;
+  padding-top: 5px;
+  background-color: transparent;
+}
+
+.page-footer a {
+  margin-right: 20px;
+}
+
+/* img { */
+  /* height: 100%; */
+  /* width: 70px; */
+  /* object-fit: fill; */
+  /* object-position: right 75%; */
+/* } */
+
+#app {
+  /* border: 2px solid red; */
+  min-height: 91vh;
+}
+
+/* p.card-description {
+  font-size: x-large;  
+} */
