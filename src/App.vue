@@ -10,7 +10,7 @@ export default {
     Card,
   },
   computed: {
-    ...mapGetters(["bakeryProductsGetter"]),
+    ...mapGetters(["bakeryRyeGetter"]),
   },
 };
 </script>
@@ -19,7 +19,7 @@ export default {
   <div>
     <div class="row">
       <Card
-        v-for="elem of bakeryProductsGetter"
+        v-for="elem of bakeryRyeGetter"
         :key="elem.id"
         :card_data="elem"
       >
