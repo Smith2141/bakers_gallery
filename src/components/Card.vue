@@ -1,16 +1,20 @@
 <template>
   <div class="col s1 m6">
-    <div class="card hoverable orange accent-1">
+    <div class="card large hoverable orange accent-1">
       <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" :src="'src/assets/' + card_data.picture" alt="picture" />
+        <img
+          class="activator"
+          :src="'src/assets/' + card_data.picture"
+          alt="picture"
+        />
         <span class="card-title black-text">{{ card_data.title }}</span>
       </div>
-      <div class="card-content black-text">
+      <!-- <div class="card-content black-text">
         <p class="card-description left-align">{{ card_data.description }}</p>
-      </div>
-      <div class="card-action">
+      </div> -->
+      <!-- <div class="card-action">
         <a class="waves-effect waves-light activator btn-large">Состав</a>
-      </div>
+      </div> -->
       <div class="card-reveal orange accent-1">
         <span class="card-title black-text">{{ card_data.title }}</span>
         <p class="black-text">Состав: {{ card_data.composition }}</p>

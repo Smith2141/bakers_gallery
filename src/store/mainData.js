@@ -108,5 +108,11 @@ export default {
     bakeryRyeGetter (state) {
       return state.rye_bread
     },
+    bakeryWheatGetter (state) {
+      return state.wheat_bread
+    },
+    bakeryCookiesGetter (state) {
+      return state.cookies
+    },
   },
 }
