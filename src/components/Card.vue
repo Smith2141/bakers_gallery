@@ -1,5 +1,5 @@
 <template>
-  <div class="col s1 m6">
+  <div class="col s12 m5">
     <div class="card hoverable" :class="card_data.card_color">
       <div class="card-image waves-effect waves-block waves-light">
         <img
