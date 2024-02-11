@@ -7,7 +7,7 @@
           :src="card_data.picture"
           alt="picture"
         />
-        <span class="card-title black-text">{{ card_data.title }}</span>
+        <span class="card-title" :class="card_data.title_color + '-text'">{{ card_data.title }}</span>
       </div>
       <div class="card-content black-text">
         <p class="card-description left-align">{{ card_data.description }}</p>
@@ -17,7 +17,7 @@
       </div>
       <div class="card-reveal" :class="card_data.card_color">
         <span class="card-title black-text">{{ card_data.title }}</span>
-        <p class="black-text">Состав: {{ card_data.composition }}.</p>
+        <p class="black-text left-align">Состав: {{ card_data.composition }}.</p>
       </div>
     </div>
   </div>
