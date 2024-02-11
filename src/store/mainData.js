@@ -28,7 +28,15 @@ export default {
         composition: "солод, мед, патока, молотый кориандр",
         picture: "images/1-rye-bread/1-3-rzhanoe-chudo.webp",
       },
-
+      {
+        id: 4,
+        title: "«Альпийский»",
+        title_color: "black",
+        card_color: "lime lighten-4",
+        description: "Пшенично-ржаной заварной, 500 г",
+        composition: "мука ржаная обдирная, мука первого сорта, семена подсолнечника, морковь сушеная, ржаной солод",
+        picture: "images/1-rye-bread/1-4-alpijskij.webp",
+      },
     ],
     wheat_bread: [
       {
@@ -122,6 +130,24 @@ export default {
         description: "Овсяное печенье с алколизованным какао",
         composition: "мука пшеничная, овсяные хлопья, масло, какао, соль",
         picture: "images/3-cookies/3-3-ovsyano-shokoladnoe.webp",
+      },
+      {
+        id: 4,
+        title: "«Ромовая баба»",
+        title_color: "white",
+        card_color: "yellow lighten-3",
+        description: "Сдобная выпечка с изюмом",
+        composition: "мука пшеничная высшего сорта, масло, яйцо, изюм, сироп с коньяком",
+        picture: "images/3-cookies/3-4-romovaya-baba.webp",
+      },
+      {
+        id: 5,
+        title: "«Шоколадная баба»",
+        title_color: "black",
+        card_color: "yellow lighten-3",
+        description: "Сдобная выпечка с темным шоколадом",
+        composition: "мука пшеничная высшего сорта, масло, мучная заварка, темный шоколад, какао, сахарный сироп, 450-500 г",
+        picture: "images/3-cookies/3-5-shokoladnaya-baba.webp",
       },
     ],
   },
