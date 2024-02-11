@@ -4,7 +4,7 @@
       <div class="card-image waves-effect waves-block waves-light">
         <img
           class="activator"
-          :src="'src/assets/' + card_data.picture"
+          :src="'/src/assets/' + card_data.picture"
           alt="picture"
         />
         <span class="card-title black-text">{{ card_data.title }}</span>
